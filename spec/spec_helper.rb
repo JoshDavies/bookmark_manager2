@@ -13,6 +13,14 @@
 # it.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+require_relative './setup_test_database'
+ENV['ENVIRONMENT'] = 'test'
+
+RSpec.configure do |config|
+  config.before(:each) do
+    setup_test_database
+  end
+end
 
 require File.join(File.dirname(__FILE__), '..', 'app.rb')
 
@@ -21,6 +29,7 @@ require 'capybara/rspec'
 require 'rspec'
 require 'simplecov'
 require 'simplecov-console'
+
 
 #require 'features/web_helpers'
 
@@ -119,4 +128,9 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
   Kernel.srand config.seed
 =end
+
+
+
+
+
 end
