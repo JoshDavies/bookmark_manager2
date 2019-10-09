@@ -3,16 +3,6 @@
     "coverage": {
       "/Users/student/Projects/bookmark-challenge/spec/bookmark_spec.rb": [
         1,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
         1,
         null,
         1,
@@ -22,14 +12,40 @@
         1,
         null,
         null,
-        null,
         1,
         1,
         1,
         null,
         1,
         null,
+        1,
+        1,
+        1,
+        1,
+        1,
         null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/student/Projects/bookmark-challenge/spec/database_helpers.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
         null
       ],
       "/Users/student/Projects/bookmark-challenge/spec/features/creating_bookmarks_spec.rb": [
@@ -38,6 +54,8 @@
         1,
         1,
         1,
+        1,
+        null,
         1,
         null,
         null
@@ -68,6 +86,6 @@
         null
       ]
     },
-    "timestamp": 1570628427
+    "timestamp": 1570633244
   }
 }
