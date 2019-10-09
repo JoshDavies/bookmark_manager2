@@ -21,6 +21,7 @@ As a user,
 So I can visit my favourite websites,
 I want to see a list of my bookmarks in a Bookmark Manager.
 
+
 ### Domain Mapping
 | bookmarks | <-- display -->
 
@@ -41,3 +42,10 @@ So that I can save a website
 I would like to add the site's address and title to bookmark manager
 
 | bookmark | <-- add >> bookmarks_array
+
+# User Story 3
+As a user
+So I can store bookmark data for later retrieval
+I want to add a bookmark to Bookmark Manager
+
+|bookmark manager| <--add_bookmark--
