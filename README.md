@@ -49,3 +49,10 @@ So I can store bookmark data for later retrieval
 I want to add a bookmark to Bookmark Manager
 
 |bookmark manager| <--add_bookmark--
+
+# User Story 4
+As a user
+So I can remove my bookmark from Bookmark Manager
+I want to delete a bookmark
+
+|bookmark| --delete--> nil
