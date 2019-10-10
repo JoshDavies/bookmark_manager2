@@ -46,6 +46,31 @@
         1,
         null,
         null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
         null
       ],
       "/Users/student/Projects/bookmark-challenge/spec/database_helpers.rb": [
@@ -114,6 +139,6 @@
         null
       ]
     },
-    "timestamp": 1570720528
+    "timestamp": 1570721321
   }
 }
