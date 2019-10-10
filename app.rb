@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'sinatra/base'
 require './lib/bookmark'
 
@@ -27,5 +29,15 @@ class Bookmarks < Sinatra::Base
     redirect '/bookmarks'
   end
 
-  run! if app_file == $0
+  get '/bookmarks/update/:id' do
+    @bookmark_id = params[:id]
+    erb :'bookmarks/update'
+  end
+
+  patch '/bookmarks/:id' do
+    Bookmark.update(id: params[:id], title: params[:title], url: params[:url])
+    redirect '/bookmarks'
+  end
+
+  run! if app_file == $PROGRAM_NAME
 end
