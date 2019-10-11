@@ -56,3 +56,11 @@ So I can remove my bookmark from Bookmark Manager
 I want to delete a bookmark
 
 |bookmark| --delete--> nil
+
+# User Story 5
+```
+As a user
+So that I can make interesting notes
+I want to add a Comment to a Bookmark
+```
+ Bookmark   ––≡≡  Comments
